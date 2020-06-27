@@ -27,6 +27,21 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<!-- Build an executable JAR -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.2.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>com.project_name.hello</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 			<!-- Configure maven-compiler-plugin to use the desired Java version -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -37,7 +52,6 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-
 			<!-- Use build-helper-maven-plugin to add Scala source and test source directories -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
