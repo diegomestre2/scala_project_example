@@ -2,7 +2,7 @@
 
 ## Running Example
 ### Building Example
-Thisexample is built using Maven. Make sure JDK and Maven are installed on the environment, and run the following command in folder `<PROJECT_ROOT>` to build jar 
+This example is built using Maven. Make sure JDK and Maven are installed on the environment, and run the following command in folder `<PROJECT_ROOT>` to build jar 
 from source code
 
 `mvn clean package`
