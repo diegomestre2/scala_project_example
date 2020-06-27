@@ -1,0 +1,5 @@
+.idea
+target
+out
+example_scala.iml
+.DS_Store
