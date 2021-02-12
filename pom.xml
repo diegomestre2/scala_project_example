@@ -4,7 +4,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.project_name</groupId>
+	<groupId>com.example_scala</groupId>
 	<artifactId>scala-maven-example</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
@@ -37,7 +37,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.project_name.hello</mainClass>
+							<mainClass>com.example_scala.hello_scala</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
